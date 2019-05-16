@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+body > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items:
+  height: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: black;
+  color: white;
+  font-family: "Helvetica";
+  font-size: 16px;
+}
