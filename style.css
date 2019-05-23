@@ -1,13 +1,21 @@
 body {
-  margin: 0;
+  background-image: url(dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: center -160px;
+  background-repeat: no-repeat;
+
+  width: 700px;
+  margin: 0 auto;
 }
 
 a {
   color: inherit;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 body > div {
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   align-items:
@@ -18,4 +26,24 @@ body > div {
   color: white;
   font-family: "Helvetica";
   font-size: 16px;
+}
+h1 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 66px;
+}
+
+h1+p{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+    margin-top: 10px;
+}
+
+p{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  margin-top: 22px;
+  line-height: 34px;
+
 }
